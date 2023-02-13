@@ -1,7 +1,3 @@
 
 
-In order to start swagger server
-
-```
- python -m http.server 8000
-```
+Python package which will install CLI script to OS path on install.
