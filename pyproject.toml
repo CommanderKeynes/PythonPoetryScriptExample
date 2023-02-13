@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "test-cli-app"
+version = "0.1.0"
+description = ""
+authors = ["Andrew Jackson <ajackson324@gatech.edu>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+click = "*"
+
+[tool.poetry.scripts]
+test_cli_app = 'test_cli_app.awesome_cli_app:hello'
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
